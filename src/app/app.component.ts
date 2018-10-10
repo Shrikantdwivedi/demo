@@ -9,8 +9,8 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   private gridApi;
   private gridColumnApi;
-  private columnDefs; //for column headings
-  private sortingOrder;
+  columnDefs; //for column headings
+  sortingOrder;
   constructor(private http:HttpClient){
     this.columnDefs=[
       {
